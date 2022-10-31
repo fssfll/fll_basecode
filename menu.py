@@ -25,7 +25,7 @@ def menu(r):
 
     while True:
         btns = r.ev3.buttons.pressed()
-        if len(r.ev3.buttons.pressed()) == 1:        
+        if len(btns) == 1:        
             btn = btns[0]
             if btn == Button.UP:
                 r.ev3.screen.clear()

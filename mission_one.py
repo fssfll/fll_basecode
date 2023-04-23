@@ -18,7 +18,7 @@ from pybricks.robotics import *
 from pybricks.iodevices import *
 from pybricks.tools import wait
 from pybricks.hubs import EV3Brick
-from robot_18300 import robot_18300
+from bolton_robotics_robot import bolton_robotics_robot
 
 def mission_one(r):
     r.ev3.screen.clear()
@@ -26,3 +26,5 @@ def mission_one(r):
     r.ev3.screen.draw_text(30, 60, "Mission 1")
     wait(100)
     # Add your code below:
+    r.robot.straight(100)
+    r.robot.turn(90)

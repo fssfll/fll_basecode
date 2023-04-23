@@ -7,7 +7,7 @@
 # Bolton Robotics and FLL Team 18300 if you find it helpful.
 #
 ##########################################################
-# mission_five.py
+# mission_eight.py
 ##########################################################
 
 import math
@@ -20,9 +20,9 @@ from pybricks.tools import wait
 from pybricks.hubs import EV3Brick
 from robot_18300 import robot_18300
 
-def mission_five(r):
+def mission_eight(r):
     r.ev3.screen.clear()
-    print("Running Mission 5")
-    r.ev3.screen.draw_text(30, 60, "Mission 5")
+    print("Running Mission 8")
+    r.ev3.screen.draw_text(30, 60, "Mission 8")
     wait(100)
     # Add your code below:

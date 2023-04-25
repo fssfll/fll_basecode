@@ -14,20 +14,20 @@
 # default configuration:
 #
 # --- MOTOR WIRING ---
-# Port A: attachment motor
+# Port A: left attachment motor
 # Port B: left drive motor
 # Port C: right drive motor
-# Port D: not connected
+# Port D: right attachment motor
 #
 # --- SENSOR WIRING ---
-# Port 1: Color Sensor
+# Port 1: left color Sensor
 # Port 2: not connected
 # Port 3: not connected
-# Port 4: not connected
+# Port 4: right color Sensor
 #
 # --- ROBOT WHEEL SIZE AND SPACING---
-# wheel_diameter: 56mm
-# axle_track: 115mm (distance between wheels)
+# wheel_diameter: 56.9mm
+# axle_track: 89mm (distance between wheels)
 #
 ##########################################################
 
